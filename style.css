@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Facebook";
+  src: url("./font/FontsFree-Net-SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Facebook";
+  background-color: #e7e6e6;
+}
+
+.campos {
+  background-color: white;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid #ccd0d5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+
+.descricao,
+.nomeclatura {
+  color: rgb(106, 106, 106);
+  font-size: 0.9rem;
+}
+
+.formulario {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 11px;
+  background-color: rgb(244, 243, 243);
+  border: 1px solid #ccd0d5;
+  box-sizing: border-box;
+}
+
+.formulario:focus {
+  outline: none;
+}
+
+.linha1 {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.nome,
+.sobrenome {
+  width: 50%;
+}
+
+.email,
+.senha {
+  width: 100%;
+}
+
+.dataNascimento {
+  display: flex;
+  gap: 10px;
+}
+
+.dia,
+.mes,
+.ano {
+  width: 33.33%;
+  margin-top: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
+.genero {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  gap: 10px;
+}
+.areaGenero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.25fr;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 0.8rem;
+  color: rgb(106, 106, 106);
+  padding: 3px;
+  text-decoration: none;
+}
+
+.botao {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #00a400;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.125rem;
+  height: 35px;
+  border: none;
+  padding: 0 42px;
+}
+button:hover {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+}
